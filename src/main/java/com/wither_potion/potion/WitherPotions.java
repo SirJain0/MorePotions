@@ -25,6 +25,9 @@ public class WitherPotions {
         public static void addRecipes() {
                 BrewingRecipeRegistryMixin.addRecipe(Potions.AWKWARD, Items.WITHER_ROSE, WITHER_POTION);
                 BrewingRecipeRegistryMixin.addRecipe(Potions.AWKWARD, Items.WITHER_SKELETON_SKULL, WITHER_POTION);
+
+                BrewingRecipeRegistryMixin.addRecipe(WITHER_POTION, Items.REDSTONE, LONG_WITHER_POTION);
+                BrewingRecipeRegistryMixin.addRecipe(LONG_WITHER_POTION, Items.GLOWSTONE_DUST, STRONG_WITHER_POTION);
         }
 
         private static Potion registerPotion(String name, Potion potion) {
