@@ -14,5 +14,6 @@ public class WitherPotion implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Initializing Wither Potion mod!");
 		WitherPotions.registerPotions();
+		WitherPotions.addRecipes();
 	}
 }
