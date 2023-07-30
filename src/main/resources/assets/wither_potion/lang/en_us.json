@@ -1,13 +1,13 @@
 {
-  "item.minecraft.potion.effect.wither_potion": "Wither Potion",
-  "item.minecraft.splash_potion.effect.wither_potion": "Wither Splash Potion",
-  "item.minecraft.lingering_potion.effect.wither_potion": "Wither Lingering Potion",
+  "item.minecraft.potion.effect.wither_potion": "Potion of Wither",
+  "item.minecraft.splash_potion.effect.wither_potion": "Splash Potion of Wither",
+  "item.minecraft.lingering_potion.effect.wither_potion": "Lingering Potion of Wither",
 
-  "item.minecraft.potion.effect.long_wither_potion": "Wither Potion",
-  "item.minecraft.splash_potion.effect.long_wither_potion": "Wither Splash Potion",
-  "item.minecraft.lingering_potion.effect.long_wither_potion": "Wither Lingering Potion",
+  "item.minecraft.potion.effect.long_wither_potion": "Potion of Wither",
+  "item.minecraft.splash_potion.effect.long_wither_potion": "Splash Potion of Wither",
+  "item.minecraft.lingering_potion.effect.long_wither_potion": "Lingering Potion of Wither",
 
-  "item.minecraft.potion.effect.strong_wither_potion": "Wither Potion",
-  "item.minecraft.splash_potion.effect.strong_wither_potion": "Wither Splash Potion",
-  "item.minecraft.lingering_potion.effect.strong_wither_potion": "Wither Lingering Potion"
+  "item.minecraft.potion.effect.strong_wither_potion": "Potion of Wither",
+  "item.minecraft.splash_potion.effect.strong_wither_potion": "Splash Potion of Wither",
+  "item.minecraft.lingering_potion.effect.strong_wither_potion": "Lingering Potion of Wither"
 }
