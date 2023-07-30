@@ -9,7 +9,10 @@
 	],
 
 	"contact": {
-
+		"twitter": "https://twitter.com/SirJain2",
+		"discord": "https://discord.gg/wM4CKTbFVN",
+		"sources": "https://github.com/SirJain0/WitherPotion",
+		"issues": "https://github.com/SirJain0/WitherPotion/issues"
 	},
 
 	"license": "CC0-1.0",
