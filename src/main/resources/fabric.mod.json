@@ -1,40 +1,38 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "wither_potion",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Wither Potion",
+	"description": "Adds Wither potions to Minecraft!",
 	"authors": [
-		"Me!"
+		"SirJain"
 	],
+
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+
 	},
+
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/wither_potion/icon.png",
 	"environment": "*",
+
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
-		],
-		"client": [
-			"com.example.ExampleModClient"
+			"com.wither_potion.WitherPotion"
 		]
 	},
+
 	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
+		"wither_potion.mixins.json"
 	],
+
 	"depends": {
 		"fabricloader": ">=0.14.21",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
+
 	"suggests": {
 		"another-mod": "*"
 	}
