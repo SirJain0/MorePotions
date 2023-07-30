@@ -10,9 +10,13 @@ import net.minecraft.util.Identifier;
 
 public class WitherPotions {
         public static Potion WITHER_POTION;
+        public static Potion LONG_WITHER_POTION;
+        public static Potion STRONG_WITHER_POTION;
 
         public static void registerPotions() {
-                WITHER_POTION = registerPotion("wither_potion", new Potion(new StatusEffectInstance(StatusEffects.WITHER, 20 * 8, 0)));
+                WITHER_POTION = registerPotion("wither_potion", new Potion(new StatusEffectInstance(StatusEffects.WITHER, 20 * 20, 0)));
+                LONG_WITHER_POTION = registerPotion("long_wither_potion", new Potion(new StatusEffectInstance(StatusEffects.WITHER, 20 * 50, 0)));
+                STRONG_WITHER_POTION = registerPotion("strong_wither_potion", new Potion(new StatusEffectInstance(StatusEffects.WITHER, 20 * 12, 1)));
         }
 
         private static Potion registerPotion(String name, Potion potion) {
