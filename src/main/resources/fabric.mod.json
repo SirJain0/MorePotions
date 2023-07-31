@@ -4,6 +4,7 @@
 	"version": "${version}",
 	"name": "Wither Potions",
 	"description": "Adds Wither potions to Minecraft!",
+
 	"authors": [
 		"SirJain"
 	],

@@ -2,6 +2,7 @@ package com.sirjain.potion;
 
 import com.sirjain.WitherPotions;
 import com.sirjain.mixin.BrewingRecipeRegistryMixin;
+import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Items;
@@ -12,16 +13,17 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class WitherPotionUtil {
-        public static Potion WITHER_POTION;
-        public static Potion LONG_WITHER_POTION;
-        public static Potion STRONG_WITHER_POTION;
+        public static Potion WITHER_POTION, LONG_WITHER_POTION, STRONG_WITHER_POTION;
+        public static StatusEffect WITHER = StatusEffects.WITHER;
 
+        // Registers potions
         public static void registerPotions() {
-                WITHER_POTION = registerPotion("wither_potion", new Potion(new StatusEffectInstance(StatusEffects.WITHER, 20 * 20, 0)));
-                LONG_WITHER_POTION = registerPotion("long_wither_potion", new Potion(new StatusEffectInstance(StatusEffects.WITHER, 20 * 50, 0)));
-                STRONG_WITHER_POTION = registerPotion("strong_wither_potion", new Potion(new StatusEffectInstance(StatusEffects.WITHER, 20 * 12, 1)));
+                WITHER_POTION = registerPotion("wither_potion", new Potion(new StatusEffectInstance(WITHER, 20 * 20, 0)));
+                LONG_WITHER_POTION = registerPotion("long_wither_potion", new Potion(new StatusEffectInstance(WITHER, 20 * 50, 0)));
+                STRONG_WITHER_POTION = registerPotion("strong_wither_potion", new Potion(new StatusEffectInstance(WITHER, 20 * 12, 1)));
         }
 
+        // Registers potion recipes
         public static void addRecipes() {
                 BrewingRecipeRegistryMixin.addRecipe(Potions.AWKWARD, Items.WITHER_ROSE, WITHER_POTION);
                 BrewingRecipeRegistryMixin.addRecipe(Potions.AWKWARD, Items.WITHER_SKELETON_SKULL, WITHER_POTION);
@@ -30,6 +32,7 @@ public class WitherPotionUtil {
                 BrewingRecipeRegistryMixin.addRecipe(LONG_WITHER_POTION, Items.GLOWSTONE_DUST, STRONG_WITHER_POTION);
         }
 
+        // Helper method to shorten process of registering potions
         private static Potion registerPotion(String name, Potion potion) {
                 return Registry.register(
                         Registries.POTION,
