@@ -1,0 +1,15 @@
+{
+    "item.minecraft.potion.effect.wither_potion": "Potion de Carie",
+    "item.minecraft.splash_potion.effect.wither_potion": "Éclaboussure Potion de Carie",
+    "item.minecraft.lingering_potion.effect.wither_potion": "Persistante Potion de Carie",
+    "item.minecraft.potion.effect.long_wither_potion": "Potion de Carie",
+    "item.minecraft.splash_potion.effect.long_wither_potion": "Éclaboussure Potion de Carie",
+    "item.minecraft.lingering_potion.effect.long_wither_potion": "Persistante Potion de Carie",
+    "item.minecraft.potion.effect.strong_wither_potion": "Potion de Carie",
+    "item.minecraft.splash_potion.effect.strong_wither_potion": "Éclaboussure Potion de Carie",
+    "item.minecraft.lingering_potion.effect.strong_wither_potion": "Persistante Potion de Carie",
+    "item.minecraft.tipped_arrow.effect.wither_potion": "Flèche de Carie",
+    "item.minecraft.tipped_arrow.effect.long_wither_potion": "Flèche de Carie",
+    "item.minecraft.tipped_arrow.effect.strong_wither_potion": "Flèche de Carie",
+    "item.wither_potions.withered_ashes": "Cendres Flétries"
+}
