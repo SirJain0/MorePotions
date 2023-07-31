@@ -1,6 +1,7 @@
 package com.sirjain;
 
-import com.sirjain.potion.WitherPotionUtil;
+import com.sirjain.content.WitherPotionsItems;
+import com.sirjain.content.WitherPotionsUtil;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,7 +14,9 @@ public class WitherPotions implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing Wither Potions mod!");
-		WitherPotionUtil.registerPotions();
-		WitherPotionUtil.addRecipes();
+
+		WitherPotionsItems.registerItems();
+		WitherPotionsUtil.registerPotions();
+		WitherPotionsUtil.addRecipes();
 	}
 }

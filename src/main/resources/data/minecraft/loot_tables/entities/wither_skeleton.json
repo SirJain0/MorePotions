@@ -103,7 +103,7 @@
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "minecraft:charcoal"
+          "name": "wither_potions:withered_ashes"
         }
       ],
       "rolls": 1.0
