@@ -17,7 +17,7 @@
 	},
 
 	"license": "CC0-1.0",
-	"icon": "assets/wither_potions/icon.png",
+	"icon": "assets/wither_potions/wp-icon.png",
 	"environment": "*",
 
 	"entrypoints": {
