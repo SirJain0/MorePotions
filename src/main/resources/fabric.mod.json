@@ -22,7 +22,7 @@
 
 	"entrypoints": {
 		"main": [
-			"com.sirjain.WitherPotions"
+			"com.sirjain.WPMain"
 		]
 	},
 
