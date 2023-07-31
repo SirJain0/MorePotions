@@ -1,7 +1,7 @@
-package com.wither_potion.potion;
+package com.sirjain.potion;
 
-import com.wither_potion.WitherPotion;
-import com.wither_potion.mixin.BrewingRecipeRegistryMixin;
+import com.sirjain.WitherPotions;
+import com.sirjain.mixin.BrewingRecipeRegistryMixin;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Items;
@@ -11,7 +11,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public class WitherPotions {
+public class WitherPotionUtil {
         public static Potion WITHER_POTION;
         public static Potion LONG_WITHER_POTION;
         public static Potion STRONG_WITHER_POTION;
@@ -33,7 +33,7 @@ public class WitherPotions {
         private static Potion registerPotion(String name, Potion potion) {
                 return Registry.register(
                         Registries.POTION,
-                        new Identifier(WitherPotion.MOD_ID, name),
+                        new Identifier(WitherPotions.MOD_ID, name),
                         potion
                 );
         }

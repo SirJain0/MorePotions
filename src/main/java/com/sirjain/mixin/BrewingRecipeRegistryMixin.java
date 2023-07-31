@@ -1,4 +1,4 @@
-package com.wither_potion.mixin;
+package com.sirjain.mixin;
 
 import net.minecraft.item.Item;
 import net.minecraft.potion.Potion;

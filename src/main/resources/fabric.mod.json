@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "wither_potion",
+	"id": "wither_potions",
 	"version": "${version}",
-	"name": "Wither Potion",
+	"name": "Wither Potions",
 	"description": "Adds Wither potions to Minecraft!",
 	"authors": [
 		"SirJain"
@@ -11,22 +11,22 @@
 	"contact": {
 		"twitter": "https://twitter.com/SirJain2",
 		"discord": "https://discord.gg/wM4CKTbFVN",
-		"sources": "https://github.com/SirJain0/WitherPotion",
-		"issues": "https://github.com/SirJain0/WitherPotion/issues"
+		"sources": "https://github.com/SirJain0/WitherPotions",
+		"issues": "https://github.com/SirJain0/WitherPotions/issues"
 	},
 
 	"license": "CC0-1.0",
-	"icon": "assets/wither_potion/icon.png",
+	"icon": "assets/wither_potions/icon.png",
 	"environment": "*",
 
 	"entrypoints": {
 		"main": [
-			"com.wither_potion.WitherPotion"
+			"com.sirjain.WitherPotions"
 		]
 	},
 
 	"mixins": [
-		"wither_potion.mixins.json"
+		"wither_potions.mixins.json"
 	],
 
 	"depends": {
