@@ -3,7 +3,7 @@
 	"id": "wither_potions",
 	"version": "${version}",
 	"name": "Wither Potions",
-	"description": "Adds Wither potions to Minecraft!",
+	"description": "Adds Wither potions and tipped arrows to Minecraft!",
 
 	"authors": [
 		"SirJain"
@@ -32,7 +32,7 @@
 
 	"depends": {
 		"fabricloader": ">=0.14.21",
-		"minecraft": "~1.20.1",
+		"minecraft": ">=1.20",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
