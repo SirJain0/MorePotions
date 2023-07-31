@@ -8,9 +8,8 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Items;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.Potions;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 public class WPUtil {
         public static Potion WITHER_POTION, LONG_WITHER_POTION, STRONG_WITHER_POTION;
@@ -33,7 +32,7 @@ public class WPUtil {
         // Helper method to shorten process of registering potions
         private static Potion registerPotion(String name, Potion potion) {
                 return Registry.register(
-                        Registries.POTION,
+                        Registry.POTION,
                         new Identifier(WPMain.MOD_ID, name),
                         potion
                 );

@@ -11,5 +11,9 @@
   "item.minecraft.splash_potion.effect.strong_wither_potion": "Splash Potion of Wither",
   "item.minecraft.lingering_potion.effect.strong_wither_potion": "Lingering Potion of Wither",
 
+  "item.minecraft.tipped_arrow.effect.wither_potion": "Arrow of Wither",
+  "item.minecraft.tipped_arrow.effect.long_wither_potion": "Arrow of Wither",
+  "item.minecraft.tipped_arrow.effect.strong_wither_potion": "Arrow of Wither",
+
   "item.wither_potions.withered_ashes": "Withered Ashes"
 }
