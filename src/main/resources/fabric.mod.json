@@ -3,7 +3,7 @@
 	"id": "wither_potions",
 	"version": "${version}",
 	"name": "Wither Potions",
-	"description": "Adds Wither potions to Minecraft!",
+	"description": "Adds Wither potions and tipped arrows to Minecraft!",
 
 	"authors": [
 		"SirJain"
