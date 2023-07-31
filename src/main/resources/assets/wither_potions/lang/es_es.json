@@ -1,0 +1,15 @@
+{
+    "item.minecraft.potion.effect.wither_potion": "Poción de Wither",
+    "item.minecraft.splash_potion.effect.wither_potion": "Poción de Wither arrojadiza",
+    "item.minecraft.lingering_potion.effect.wither_potion": "Poción de Wither persistente",
+    "item.minecraft.potion.effect.long_wither_potion": "Poción de Wither",
+    "item.minecraft.splash_potion.effect.long_wither_potion": "Poción de Wither arrojadiza",
+    "item.minecraft.lingering_potion.effect.long_wither_potion": "Poción de Wither persistente",
+    "item.minecraft.potion.effect.strong_wither_potion": "Poción de Wither",
+    "item.minecraft.splash_potion.effect.strong_wither_potion": "Poción de Wither arrojadiza",
+    "item.minecraft.lingering_potion.effect.strong_wither_potion": "Poción de Wither persistente",
+    "item.minecraft.tipped_arrow.effect.wither_potion": "Flecha de Wither",
+    "item.minecraft.tipped_arrow.effect.long_wither_potion": "Flecha de Wither",
+    "item.minecraft.tipped_arrow.effect.strong_wither_potion": "Flecha de Wither",
+    "item.wither_potions.withered_ashes": "Cenizas de Wither"
+}
