@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wither_potions:item/withered_ashes"
+    "layer0": "more_potions:item/withered_ashes"
   }
 }
