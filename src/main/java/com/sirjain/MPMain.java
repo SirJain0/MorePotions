@@ -13,7 +13,7 @@ public class MPMain implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Initializing Wither Potions mod!");
+		LOGGER.info("Initializing More Potions mod!");
 
 		MPItems.registerItems();
 		MPUtil.registerPotions();
