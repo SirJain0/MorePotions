@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "wither_potions",
+	"id": "more_potions",
 	"version": "${version}",
-	"name": "Wither Potions",
-	"description": "Adds Wither potions and tipped arrows to Minecraft!",
+	"name": "More Potions",
+	"description": "Adds a few new potions and tipped arrows to Minecraft based on existing status effects!",
 
 	"authors": [
 		"SirJain"
@@ -12,22 +12,22 @@
 	"contact": {
 		"twitter": "https://twitter.com/SirJain2",
 		"discord": "https://discord.gg/wM4CKTbFVN",
-		"sources": "https://github.com/SirJain0/WitherPotions",
-		"issues": "https://github.com/SirJain0/WitherPotions/issues"
+		"sources": "https://github.com/SirJain0/MorePotions",
+		"issues": "https://github.com/SirJain0/MorePotions/issues"
 	},
 
 	"license": "CC0-1.0",
-	"icon": "assets/wither_potions/wp-icon.png",
+	"icon": "assets/more_potions/mp-icon.png",
 	"environment": "*",
 
 	"entrypoints": {
 		"main": [
-			"com.sirjain.WPMain"
+			"com.sirjain.MPMain"
 		]
 	},
 
 	"mixins": [
-		"wither_potions.mixins.json"
+		"more_potions.mixins.json"
 	],
 
 	"depends": {

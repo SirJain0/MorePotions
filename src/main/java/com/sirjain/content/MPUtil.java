@@ -1,6 +1,6 @@
 package com.sirjain.content;
 
-import com.sirjain.WPMain;
+import com.sirjain.MPMain;
 import com.sirjain.mixin.BrewingRecipeRegistryMixin;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -11,7 +11,7 @@ import net.minecraft.potion.Potions;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class WPUtil {
+public class MPUtil {
         public static Potion WITHER_POTION, LONG_WITHER_POTION, STRONG_WITHER_POTION;
         public static Potion HUNGER_POTION, LONG_HUNGER_POTION, STRONG_HUNGER_POTION;
         public static Potion LEVITATING_POTION, LONG_LEVITATING_POTION, STRONG_LEVITATING_POTION;
@@ -37,7 +37,7 @@ public class WPUtil {
 
         // Registers potion recipes
         public static void addRecipes() {
-                BrewingRecipeRegistryMixin.addRecipe(Potions.AWKWARD, WPItems.WITHERED_ASHES, WITHER_POTION);
+                BrewingRecipeRegistryMixin.addRecipe(Potions.AWKWARD, MPItems.WITHERED_ASHES, WITHER_POTION);
                 BrewingRecipeRegistryMixin.addRecipe(WITHER_POTION, Items.REDSTONE, LONG_WITHER_POTION);
                 BrewingRecipeRegistryMixin.addRecipe(LONG_WITHER_POTION, Items.GLOWSTONE_DUST, STRONG_WITHER_POTION);
 
@@ -54,7 +54,7 @@ public class WPUtil {
         private static Potion registerPotion(String name, Potion potion) {
                 return Registry.register(
                         Registry.POTION,
-                        new Identifier(WPMain.MOD_ID, name),
+                        new Identifier(MPMain.MOD_ID, name),
                         potion
                 );
         }
