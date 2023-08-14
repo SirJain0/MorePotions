@@ -1,4 +1,4 @@
-# Wither Potions
+# More Potions
 
 ![banner](https://github.com/SirJain0/WitherPotions/assets/94301223/1e4b0150-5bef-40ff-a44a-431df5039420)
 
